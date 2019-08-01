@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.banner-wrapper {
+  height: 750px;
+  background-color: #8a8a8a;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.banner-info {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.banner-info > * {
+  min-width: 440px;
+}
+
+.banner-info > p {
+  color: #3f3f3f;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.banner-info > h1 {
+  color: #383838;
+  font-size: 46px;
+  text-transform: uppercase;
+}
+
+.banner-info > div {
+  padding: 10px;
+  background: #333333;
+  border-radius: 5px;
+}
+
+.banner-info > div > span {
+  color: white;
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.banner-info > div > span:first-child {
+  color: #00a99d;
+  text-transform: uppercase;
+}
+
+.banner-info > div > span:last-child {
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.banner-info > section {
+  height: 120px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-text {
+  font-size: 18px;
+  color: #00a99d;
+  text-transform: uppercase;
+}
+
+.first-text + span {
+  color: white;
+}
+
+.rectangle-wrapper {
+  display: flex;
+  position: relative;
+  margin: 0 10px;
+}
+
+.rectangle {
+  width: 12px;
+  height: 12px;
+  background: #00a99d;
+  border-radius: 3px;
+  transform: rotate(45deg);
+  position: relative;
+}
+
+.rectangle-1 {
+  transform: scale(0.8) rotate(45deg);
+  left: 5px;
+}
+.rectangle-2 {
+  transform: scale(0.5) rotate(45deg);
+  left: 10px;
+}
+
+.rectangle-minus-5 {
+  left: -5px;
+}
+
+.rectangle-minus-10 {
+  left: -10px;
+}
+
+.double-line {
+  height: 5px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  flex: 1;
+}
+
+div.img-wrapper {
+  background: transparent;
+}
+
+.img-wrapper > img {
+  margin: 0 auto;
+  display: block;
+  width: 50px;
+}
+
+nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-text {
+  font-weight: 900;
+  font-size: 12px;
+  color: #9a9a9a;
+}
+nav a {
+  font-size: 12px;
+  color: black;
+  text-transform: uppercase;
+  display: block;
+
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 40px;
+  text-decoration: none;
+}
+.navigation-wrapper {
+  display: flex;
+}
+nav a:hover {
+  background: #00a99d;
+  color: white;
+}
+.logo-wrapper img {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+hr {
+  background: #dedede;
+}
+.offer-wrapper {
+  padding: 80px 0 50px 0;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+#main-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+#main-line .first-text {
+  color: #383838;
+}
+#main-line .first-text + span {
+  color: #00a99d;
+}
+.offer-text {
+  font-size: 13px;
+  color: rgba(138, 138, 138, 255);
+  text-align: center;
+}
+#main-line .double-line {
+  border-color: #dedede;
+}
+
+.offer-icon {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: #383838;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.offer-icon > img {
+  width: 40px;
+}
+
+.offer-text-1 {
+  color: #606060;
+  text-transform: uppercase;
+  text-align: center;
+}
+.offer-text-2 {
+  color: #7a7a7a;
+  text-align: center;
+}
+
+.offer-view {
+  font-size: 12px;
+  color: #939393;
+  text-transform: uppercase;
+  display: block;
+
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 30px;
+  text-decoration: none;
+  border: 1px solid #dedede;
+}
+
+.offer-view:hover {
+  color: white;
+  background: #00a99d;
+}
+.offer-item > * {
+  margin-bottom: 20px;
+}
+
+.offer-items-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 12.5%;
+}
+
+.offer-item {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
