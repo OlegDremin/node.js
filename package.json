@@ -1,0 +1,15 @@
+{
+  "name": "oleg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run-build": "node-sass-chokidar ./src/sass/index.scss ./dist/index.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass-chokidar": "^1.3.5"
+  }
+}
